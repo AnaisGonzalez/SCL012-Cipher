@@ -7,10 +7,53 @@
     <link rel="icon" href="img/favicon-icono" sizes="32x32" type="image/png">
   </head>
   <body>
+    <div align="center">
     <div id="root">
-      <h1>Cifrado Cesar</h1>
+      <h1>  <img src="img/logo.png"> </h1>
+
+<!-- numero de desplazamientos-->
+      <p class="instr">¡Ingrese el número que decidan con tu complice para comunicarse!</p>
+
+      <div>
+      <input class="shift" type="number" min="0" max="10" id="positionNumber">
+      <p class="desplazamientos">  Número de desplazamientos </p>
+      </div>
+
+<!-- cuadro de texto a ingresar -->
+<div>
+
+<p class="instr">Escriba el mensaje a cifrar o descifrar</p>
+
+<form action="../../form-result.php" target="_blank">
+  <p><textarea name="mensaje" class="textarea" id="sourceText" placeholder="Ingresa aqui tu mensaje"></textarea></p>
+</form>
+</div>
+
+<!-- botones cifrar, descifrar y limpiar -->
+<div>
+
+  <button type="button" class="button radius" id="btnC">Cifrar</button>
+  <button type="button" class="button radius" id="btnD">Descifrar</button>
+  <button type="button" class="button radius" id="btnL">Limpiar</button>
+
+</div>
+
+<!-- cuadro texto traducido -->
+<div>
+    <p class="instr">¡Tu mensaje listo!</p>
+<form action="../../form-result.php" target="_blank">
+
+  <p><textarea aling:center; name="mensajelisto" class="textarea" id="finalText" placeholder=""></textarea></p>
+  
+</form>
+
     </div>
+    </div>
+    </div>
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>
