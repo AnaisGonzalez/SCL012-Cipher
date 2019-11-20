@@ -17,13 +17,17 @@ Esta aplicación es una mensajeria secreta para personas que quieran eviarse men
 - Ideación: Creado de manera simple, solo con una pantalla para que se pueda utilizar de manera rapida.
 
 - Prototipado (sketching): En base a la idea de un diseño simple de una página se crea en sketch para ver la funcionalidad, creado en Balsamiq
+
 ![[Sketch]](imgR/Sketch_cifrado.png)
 
 
 Luego cree el prototipo de alta fidelidad en Figma, con un diseño que represente tecnologia y seguridad.
+
 ![[Prototipo]](imgR/CIFRADO.jpg)
 
-- Iteración: Se muestra la aplicación a distintos tipos de personas, como diseño y simplicidad esta funcionando correcto. Pero en cuanto a funcionalidad hay cosas que no se entienden, como el offset, saber que número seleccionar y por qué. En base a esto se crea la frase "¡Ingrese el número que decidan con tu cómplice para comunicarse!"  y un texto explicactivo pequeño antes del offset y se deja con parametros de 0 a 10 para simplificar al usuario.
+Aqui esta el prototipo interactivo, modo explicativo del funcionamiento.[![Prototipo interactivo de Figma]](https://www.figma.com/proto/i410BH7ZFIJCeYczCF9Lsl/Cifrado?node-id=1%3A2&scaling=min-zoom)
+
+- Iteración: Se muestra la aplicación a distintos tipos de personas, como diseño y simplicidad esta funcionando correcto. Pero en cuanto a funcionalidad hay cosas que no se entienden, como el offset, saber que número seleccionar y por qué. En base a esto se crea la frase "¡Ingrese el número que decidan con tu cómplice para comunicarse!"  y un texto explicactivo pequeño antes del offset y se deja con parametros de 1 a 10 para simplificar al usuario.
 
 ## Testing
 - Se genero testeos para comprobación de funciones, despues de resolver errores pasa correcto.

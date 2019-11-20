@@ -1,8 +1,4 @@
 
-h1 {
-  margin: center;
-  padding: center;
-}
 
 body {
     background-image: url("img/fondo.jpg");
@@ -13,10 +9,6 @@ body {
     height: 100%;
 
   }
-
-  .topMargin {
-   margin-top: 2rem;
- }
 
   .desplazamientos {
     font-family: "gobCL";
