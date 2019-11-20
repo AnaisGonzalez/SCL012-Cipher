@@ -19,7 +19,7 @@ body {
  }
 
   .desplazamientos {
-    font-family: "Tw Cen MT";
+    font-family: "gobCL";
     color: rgb(197, 197, 197);
 
   }
@@ -28,7 +28,7 @@ body {
   border-radius:15px;
   background-color: #2CBCEA;
   font-size: 16px;
-  font-family: "Tw Cen MT";
+  font-family: "gobCL";
   width: 144px;
   height: 39px;
   left: 830px;
@@ -60,3 +60,11 @@ body {
   margin: 10rem,10rem;
 
 }
+
+@font-face{font-family:NEOTERIC; 
+src:url(font/NEOTERIC.ttf);
+ }
+
+ @font-face{font-family:gobCL; 
+  src:url(font/gobCL_Regular.otf);
+   };
